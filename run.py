@@ -5,7 +5,7 @@ from gradio_ui import demo
 
 app = FastAPI()
 
-@app.get('/')
+@app.get('/gradio')
 async def home():
     return 'Gradio UI is running at the route /gradio.', 200
 
